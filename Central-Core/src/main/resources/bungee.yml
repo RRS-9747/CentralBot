@@ -1,5 +1,0 @@
-name: CentralBot
-version: '${project.version}'
-main: me.rrs.centralbot.bungee.CentralBot
-author: RRS
-description: CentralBot core plugin for bungeecord
