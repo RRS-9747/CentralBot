@@ -1,0 +1,30 @@
+name: Central-Profile
+version: '${project.version}'
+main: me.rrs.centralprofile.CentralProfile
+api-version: 1.13
+authors: [ RRS ]
+description: CentralBot addon for Placeholder Stats
+website: https://discord.gg/fV4P2yMSgR
+
+softdepend:
+  - DiscordSRV
+depend:
+  - CentralBot
+  - PlaceholderAPI
+commands:
+  addpapi:
+    description: Set title & placeholder
+    aliases: addpapi
+    permission: centralbot.admin
+    usage: /setpapi <title> <placeholder>
+
+  removepapi:
+    description: Remove title & placeholder
+    aliases: deletepapi
+    permission: centralbot.admin
+    usage: /removepapi <title>
+
+  editpapi:
+    description: edit title & placeholder
+    permission: centralbot.admin
+    usage: /editpapi title|papi <title> <placeholder>

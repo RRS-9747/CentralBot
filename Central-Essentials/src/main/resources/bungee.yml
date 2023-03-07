@@ -1,0 +1,7 @@
+name: Central-Essentials
+version: '${project.version}'
+main: me.rrs.essentials.bungee.CentralEssentials
+author: RRS
+description: Show Player list of a bungeecord server
+depends:
+  - CentralBot

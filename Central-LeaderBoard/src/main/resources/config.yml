@@ -1,0 +1,13 @@
+Version: '${project.version}'
+
+Config:
+  Command: "leaderboard"
+
+Embed:
+    Title: "🏆 ``{BOARD}`` Leaderboard ({TIME}) 🏆"
+    Footer:
+      Text: "{AUTHOR}"
+
+Leaderboard:
+  Format: "{NAME} -> {VALUE} {BOARD}"
+  Top: 10

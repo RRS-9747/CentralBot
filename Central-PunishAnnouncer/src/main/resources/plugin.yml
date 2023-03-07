@@ -1,0 +1,11 @@
+name: Central-PunishAnnouncer
+version: '${project.version}'
+main: me.rrs.cpa.CentralPunishAnnouncer
+api-version: 1.13
+authors: [ RRS ]
+description: Announce punishment on discord
+softdepend:
+  - AdvancedBan
+
+depend:
+  - CentralBot

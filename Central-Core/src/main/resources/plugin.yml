@@ -1,0 +1,13 @@
+name: CentralBot
+version: '${project.version}'
+main: me.rrs.centralbot.spigot.CentralBot
+api-version: 1.13
+authors: [ RRS ]
+description: CentralBot Core plugin for Bukkit
+website: https://discord.gg/fV4P2yMSgR
+commands:
+  centralbot:
+    description: Main command of CentralBot core
+    usage: /centralbot
+    aliases:
+      - cb

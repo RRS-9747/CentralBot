@@ -1,0 +1,24 @@
+# sqlite -> jdbc:sqlite:<FILE>
+# mysql -> jdbc:mysql://<HOST>:<PORT>/<DATABASE>
+# postgresql -> jdbc:postgresql://<HOST>:<PORT>/<DATABASE>
+
+Version: '${project.version}'
+
+Database:
+  URL: "jdbc:sqlite:CentralBot.sqlite"
+  User:
+  Password:
+
+Bot:
+  Token: ""
+  Status: "ONLINE"  # ONLINE, IDLE, DO_NOT_DISTURB, OFFLINE
+  Activity:
+    Type: "PLAYING"
+    Name: "Minecraft"
+
+Server:
+  ID:
+  Player-Role: []
+  Admin-Role: []
+
+

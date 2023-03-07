@@ -1,0 +1,14 @@
+name: CentralBot-Bedwars1058
+version: '${project.version}'
+main: me.rrs.centralbw.CentralBedWars
+api-version: 1.13
+authors: [ RRS ]
+description: CentralBot addon for Bedwars1058 stats
+website: https://discord.gg/fV4P2yMSgR
+prefix: CentralBot-BedWars
+softdepend:
+  - PlaceholderAPI
+  - DiscordSRV
+depend:
+  - CentralBot
+  - BedWars1058

@@ -1,0 +1,21 @@
+name: Central-LeaderBoard
+version: '${project.version}'
+main: me.rrs.centrallb.CentralLeaderBoard
+api-version: 1.13
+authors: [ RRS ]
+description: CentralBot addon for LeaderBoard
+website: https://discord.gg/fV4P2yMSgR
+depend:
+  - CentralBot
+  - ajLeaderboards
+
+commands:
+  addboard:
+    description: Add board
+    usage: /addboard <name> <placeholder>
+    permission: centralbot.admin
+  delboard:
+    description: Remove a board
+    usage: /delboard <name>
+    permission: centralbot.admin
+
