@@ -1,8 +1,0 @@
-name: Central-Essentials
-version: '${project.version}'
-main: me.rrs.essentials.spigot.CentralEssentials
-api-version: 1.13
-depend: [ CentralBot ]
-softdepend:
-  - Essentials
-authors: [ RRS ]

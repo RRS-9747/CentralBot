@@ -1,5 +1,0 @@
-Version: '${project.version}'
-
-Bot:
-  Command-List: "players"
-  Command-Run: "run"
